@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Two Hearts, One Beautiful Journey ❤️ | Happy Anniversary</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --gold: #e6c17a;
+    --rose: #f3a6b8;
+    --dark: #10070b;
+    --burgundy: #4b1027;
+    --cream: #fff2e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--dark);
+    color: var(--cream);
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        radial-gradient(ellipse at 15% 20%, #691c3544, transparent 45%),
+        radial-gradient(ellipse at 85% 70%, #a16d2222, transparent 45%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+button {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 27px;
+    color: var(--gold);
+    letter-spacing: 2px;
+}
+
+.nav-heart {
+    color: var(--rose);
+    font-size: 22px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 100px 20px 70px;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 850px;
+    animation: appear 1.5s ease;
+}
+
+.eyebrow {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 11px;
+    margin-bottom: 28px;
+}
+
+.hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(55px, 10vw, 115px);
+    font-weight: 400;
+    line-height: 0.95;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    display: block;
+    font-style: italic;
+    color: var(--rose);
+}
+
+.hero-description {
+    color: #d7c3c9;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2;
+    max-width: 480px;
+    margin: 0 auto 35px;
+}
+
+.gold-line {
+    width: 75px;
+    height: 1px;
+    background: var(--gold);
+    margin: 25px auto;
+}
+
+.primary-btn {
+    border: 1px solid var(--gold);
+    background: linear-gradient(135deg, #d7ad65, #f0d7a1);
+    color: #250d16;
+    padding: 15px 32px;
+    border-radius: 50px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+.primary-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 35px #e6c17a44;
+}
+
+.scroll-text {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #c4a9b1;
+    font-size: 9px;
+    letter-spacing: 4px;
+    white-space: nowrap;
+}
+
+/* BACKGROUND HEARTS */
+
+.floating-heart {
+    position: fixed;
+    bottom: -30px;
+    pointer-events: none;
+    z-index: 0;
+    animation: floatUp linear forwards;
+    opacity: 0.55;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    15% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-110vh) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* GENERAL SECTIONS */
+
+section:not(.hero) {
+    padding: 100px 7%;
+    position: relative;
+    z-index: 1;
+}
+
+.section-label {
+    color: var(--gold);
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(40px, 6vw, 68px);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.section-title em {
+    color: var(--rose);
+}
+
+.section-subtitle {
+    color: #bdaab1;
+    font-size: 12px;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+/* LOVE STORY */
+
+.story {
+    text-align: center;
+    background: linear-gradient(180deg, transparent, #310d1c66, transparent);
+}
+
+.story-card {
+    max-width: 750px;
+    margin: 50px auto 0;
+    border: 1px solid #e6c17a35;
+    background: linear-gradient(145deg, #34111e99, #16090fdd);
+    padding: clamp(30px, 6vw, 65px);
+    position: relative;
+}
+
+.story-card::before,
+.story-card::after {
+    content: "✦";
+    position: absolute;
+    color: var(--gold);
+    font-size: 20px;
+}
+
+.story-card::before {
+    top: 15px;
+    left: 18px;
+}
+
+.story-card::after {
+    bottom: 15px;
+    right: 18px;
+}
+
+.story-card p {
+    color: #e0ccd2;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 3vw, 27px);
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.signature {
+    margin-top: 30px;
+    color: var(--gold);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 27px;
+    font-style: italic;
+}
+
+/* COUNTER */
+
+.counter-section {
+    text-align: center;
+}
+
+.counter-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    max-width: 850px;
+    margin: 50px auto 0;
+}
+
+.counter-box {
+    padding: 30px 10px;
+    border: 1px solid #e6c17a40;
+    background: #ffffff04;
+}
+
+.counter-number {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--gold);
+    font-size: clamp(35px, 6vw, 60px);
+}
+
+.counter-label {
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #bcaab1;
+    margin-top: 8px;
+}
+
+/* TIMELINE */
+
+.timeline {
+    text-align: center;
+    background: #ffffff03;
+}
+
+.timeline-container {
+    max-width: 650px;
+    margin: 55px auto 0;
+    text-align: left;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    bottom: 8px;
+    width: 1px;
+    background: linear-gradient(var(--gold), #a84b6c, transparent);
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 45px;
+}
+
+.timeline-item::before {
+    content: "♥";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--rose);
+    font-size: 19px;
+    background: var(--dark);
+    padding: 0 2px;
+}
+
+.timeline-date {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    margin-bottom: 10px;
+}
+
+.timeline-item h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    color: #bcaab1;
+    font-size: 12px;
+    line-height: 2;
+}
+
+/* GALLERY */
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-grid {
+    max-width: 1000px;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.photo-card {
+    min-height: 280px;
+    border: 1px solid #e6c17a40;
+    background: linear-gradient(145deg, #4b1a2e, #190b12);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.photo-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--gold);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    transition: 0.6s;
+}
+
+.photo-card:hover img {
+    transform: scale(1.07);
+}
+
+.photo-placeholder {
+    font-size: 65px;
+    color: var(--rose);
+}
+
+.photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 35px 10px 20px;
+    background: linear-gradient(transparent, #12070de8);
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    z-index: 2;
+}
+
+/* LOVE LETTER */
+
+.letter-section {
+    text-align: center;
+    background: radial-gradient(ellipse, #4b102744, transparent 70%);
+}
+
+.letter-envelope {
+    max-width: 620px;
+    margin: 45px auto 0;
+    border: 1px solid #e6c17a66;
+    background: linear-gradient(145deg, #2d101d, #180911);
+    padding: 45px 30px;
+}
+
+.letter-heart {
+    font-size: 42px;
+    margin-bottom: 20px;
+    animation: heartbeat 1.8s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    15% { transform: scale(1.13); }
+    30% { transform: scale(1); }
+    45% { transform: scale(1.08); }
+}
+
+.letter-envelope h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.letter-envelope > p {
+    color: #cbb7be;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+
+.letter-content {
+    display: none;
+    text-align: left;
+    border-top: 1px solid #e6c17a40;
+    padding-top: 25px;
+    margin-top: 25px;
+    color: #ead8de;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    line-height: 1.9;
+}
+
+.letter-content.show {
+    display: block;
+    animation: appear 0.8s ease;
+}
+
+/* PROMISE */
+
+.promise {
+    text-align: center;
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+}
+
+.promise-heart {
+    color: var(--rose);
+    font-size: 55px;
+    margin: 25px 0;
+}
+
+.promise-text {
+    max-width: 650px;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(23px, 4vw, 34px);
+    line-height: 1.7;
+    color: #e9d5dc;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 35px 20px;
+    border-top: 1px solid #e6c17a25;
+    color: #bdaab1;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+footer span {
+    color: var(--rose);
+}
+
+/* CONFETTI */
+
+.confetti {
+    position: fixed;
+    top: -20px;
+    width: 8px;
+    height: 13px;
+    z-index: 999;
+    pointer-events: none;
+    animation: confettiFall linear forwards;
+}
+
+@keyframes confettiFall {
+    to {
+        transform: translateY(110vh) rotate(900deg);
+        opacity: 0;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+    nav {
+        padding: 20px 6%;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    section:not(.hero) {
+        padding: 75px 6%;
+    }
+
+    .eyebrow {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+
+    .hero-description {
+        font-size: 12px;
+    }
+
+    .counter-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .counter-box {
+        padding: 24px 8px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        max-width: 380px;
+        gap: 16px;
+    }
+
+    .photo-card {
+        min-height: 330px;
+    }
+
+    .photo-card img {
+        min-height: 330px;
+    }
+
+    .story-card {
+        padding: 35px 23px;
+    }
+
+    .letter-envelope {
+        padding: 35px 22px;
+    }
+
+    .timeline-item h3 {
+        font-size: 27px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Our Forever ♡</div>
+    <div class="nav-heart">♥</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="eyebrow">A celebration of our love</div>
+
+        <h1>
+            Happy
+            <span>Anniversary</span>
+        </h1>
+
+        <div class="gold-line"></div>
+
+        <p class="hero-description">
+            To my favourite person, my safest place,
+            and my most beautiful forever.
+            Every love story is special, but ours will
+            always be my favourite.
+        </p>
+
+        <a href="#story" class="primary-btn" onclick="celebrate()">
+            Celebrate Our Love ♥
+        </a>
+    </div>
+
+    <div class="scroll-text">SCROLL TO EXPLORE OUR STORY ↓</div>
+</section>
+
+<!-- OUR STORY -->
+
+<section class="story" id="story">
+    <div class="section-label">Chapter One</div>
+
+    <h2 class="section-title">
+        The beginning of <em>forever.</em>
+    </h2>
+
+    <p class="section-subtitle">
+        Some moments become memories. Some people become home.
+    </p>
+
+    <div class="story-card">
+        <p>
+            Before you, love was just a word.
+            Then you came into my life and gave it a thousand
+            beautiful meanings. You became my favourite
+            hello, my hardest goodbye, and the person I want
+            beside me through every chapter of life.
+            <br><br>
+            We may not have a perfect story, but every
+            imperfect moment becomes beautiful when I'm
+            sharing it with you.
+            <br><br>
+            If I could live my life all over again,
+            I would still search for you, choose you,
+            and fall in love with you.
+            Every single time.
+        </p>
+
+        <div class="signature">Forever yours ♡</div>
+    </div>
+</section>
+
+<!-- RELATIONSHIP COUNTER -->
+
+<section class="counter-section" id="counter">
+    <div class="section-label">Every Second Matters</div>
+
+    <h2 class="section-title">
+        Our love, <em>in numbers.</em>
+    </h2>
+
+    <p class="section-subtitle">
+        Every second with you is another reason to smile.
+    </p>
+
+    <div class="counter-grid">
+        <div class="counter-box">
+            <div class="counter-number" id="days">000</div>
+            <div class="counter-label">Days Together</div>
+        </div>
+
+        <div class="counter-box">
+            <div class="counter-number" id="hours">00</div>
+            <div class="counter-label">Hours</div>
+        </div>
+
+        <div class="counter-box">
+            <div class="counter-number" id="minutes">00</div>
+            <div class="counter-label">Minutes</div>
+        </div>
+
+        <div class="counter-box">
+            <div class="counter-number" id="seconds">00</div>
+            <div class="counter-label">Seconds</div>
+        </div>
+    </div>
+
+    <p class="section-subtitle">
+        And counting... because our story is still being written.
+    </p>
+</section>
+
+<!-- TIMELINE -->
+
+<section class="timeline" id="memories">
+    <div class="section-label">Little Moments, Big Memories</div>
+
+    <h2 class="section-title">
+        Our love <em>story.</em>
+    </h2>
+
+    <p class="section-subtitle">
+        Every beautiful story has moments worth remembering.
+    </p>
+
+    <div class="timeline-container">
+
+        <div class="timeline-item">
+            <div class="timeline-date">CHAPTER 01</div>
+            <h3>The First Hello ✨</h3>
+            <p>
+                The moment two strangers started becoming
+                something special. Little did we know how
+                important we would become to each other.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">CHAPTER 02</div>
+            <h3>The Butterflies 🦋</h3>
+            <p>
+                The nervous smiles, the endless conversations,
+                and that beautiful feeling of wanting to talk
+                to one person all day long.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">CHAPTER 03</div>
+            <h3>Our Favourite Memories 🌹</h3>
+            <p>
+                The laughter, the silly moments, the surprises,
+                and the memories that make our relationship
+                uniquely ours.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-date">CHAPTER 04</div>
+            <h3>Still Choosing You ❤️</h3>
+            <p>
+                Through every high and low, my favourite
+                part of this journey is knowing that there
+                are still so many beautiful moments ahead.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PHOTO GALLERY -->
+
+<section class="gallery" id="gallery">
+    <div class="section-label">Captured Moments</div>
+
+    <h2 class="section-title">
+        A gallery of <em>us.</em>
+    </h2>
+
+    <p class="section-subtitle">
+        Replace these beautiful placeholders with your own photos.
+    </p>
+
+    <div class="gallery-grid">
+
+        <div class="photo-card">
+            <img src="photo1.jpg" alt="Our first memory">
+    <div class="photo-caption">Our Beginning</div>
+</div>        
+
+        <div class="photo-card">
+            <img src="photo2.jpg">🌹</div>
+            <div class="photo-caption">My Favourite Person</div>
+        </div>
+
+        <div class="photo-card">
+            <img src="photo2.jpg"">✨</div>
+            <div class="photo-caption">Forever Memories</div>
+        </div>
+
+    </div>
+</section>
+
+<!-- LOVE LETTER -->
+
+<section class="letter-section" id="letter">
+    <div class="section-label">Written From The Heart</div>
+
+    <h2 class="section-title">
+        A little letter <em>for you.</em>
+    </h2>
+
+    <div class="letter-envelope">
+        <div class="letter-heart">💌</div>
+
+        <h3>To My Favourite Human</h3>
+
+        <p>
+            There are a thousand things I want to tell you,
+            but sometimes my heart says more than words can.
+        </p>
+
+        <button class="primary-btn" id="letterButton" onclick="openLetter()">
+            Open My Heart ♥
+        </button>
+
+        <div class="letter-content" id="letterContent">
+            My Love,<br><br>
+
+            Happy Anniversary to the person who makes my
+            ordinary days feel extraordinary. Thank you for
+            the smiles, the laughter, the memories, and all
+            the little things that make loving you so special.
+            <br><br>
+
+            I don't promise that every day will be perfect.
+            I promise to keep learning, growing, listening,
+            and finding new reasons to choose you.
+            <br><br>
+
+            When life gets difficult, I hope we remember
+            why we started. When life gets beautiful,
+            I hope you're the first person I turn to.
+            <br><br>
+
+            You are a chapter I never want to end,
+            a dream I never want to wake up from,
+            and a love I will always treasure.
+            <br><br>
+
+            Here's to everything we've been, everything
+            we are, and everything we're yet to become.
+            <br><br>
+
+            I love you. Today, tomorrow, and in all
+            the little moments in between.
+            <br><br>
+
+            <span style="color: var(--gold); font-style: italic;">
+                Always and forever, yours. ❤️
+            </span>
+        </div>
+    </div>
+</section>
+
+<!-- PROMISE -->
+
+<section class="promise">
+    <div class="section-label">One Last Thing</div>
+
+    <h2 class="section-title">
+        My favourite <em>promise.</em>
+    </h2>
+
+    <div class="promise-heart">♥</div>
+
+    <p class="promise-text">
+        "No matter how many anniversaries we celebrate,
+        I will never stop being grateful for the day
+        our story began."
+    </p>
+
+    <div class="gold-line"></div>
+
+    <p class="section-subtitle">
+        Here's to more love, more laughter, and more us.
+    </p>
+
+    <button class="primary-btn" onclick="celebrate()">
+        Make This Moment Magical ✨
+    </button>
+</section>
+
+<footer>
+    MADE WITH <span>♥</span> AND A LITTLE BIT OF MAGIC
+    <br>
+    OUR LOVE STORY · FOREVER & ALWAYS
+</footer>
+
+<script>
+
+/* ===================================
+   CUSTOMIZE YOUR ANNIVERSARY DATE
+   Format: YYYY-MM-DD
+   =================================== */
+
+const anniversaryDate = "2022-06-19";
+
+/* FLOATING HEARTS */
+
+const heartSymbols = ["♥", "♡", "❤", "💕"];
+
+function createHeart() {
+    const heart = document.createElement("div");
+
+    heart.className = "floating-heart";
+    heart.textContent =
+        heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (12 + Math.random() * 20) + "px";
+    heart.style.color = Math.random() > 0.5 ? "#f3a6b8" : "#e6c17a";
+
+    const duration = 7 + Math.random() * 7;
+    heart.style.animationDuration = duration + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => heart.remove(), duration * 1000);
+}
+
+setInterval(createHeart, 900);
+
+/* RELATIONSHIP TIMER */
+
+function updateCounter() {
+    const start = new Date(anniversaryDate + "T00:00:00");
+    const now = new Date();
+
+    if (Number.isNaN(start.getTime()) || start > now) {
+        document.getElementById("days").textContent = "000";
+        document.getElementById("hours").textContent = "00";
+        document.getElementById("minutes").textContent = "00";
+        document.getElementById("seconds").textContent = "00";
+        return;
+    }
+
+    const difference = now - start;
+
+    const days = Math.floor(difference / 86400000);
+    const hours = Math.floor((difference / 3600000) % 24);
+    const minutes = Math.floor((difference / 60000) % 60);
+    const seconds = Math.floor((difference / 1000) % 60);
+
+    document.getElementById("days").textContent =
+        String(days).padStart(3, "0");
+
+    document.getElementById("hours").textContent =
+        String(hours).padStart(2, "0");
+
+    document.getElementById("minutes").textContent =
+        String(minutes).padStart(2, "0");
+
+    document.getElementById("seconds").textContent =
+        String(seconds).padStart(2, "0");
+}
+
+updateCounter();
+setInterval(updateCounter, 1000);
+
+/* LOVE LETTER */
+
+function openLetter() {
+    const letter = document.getElementById("letterContent");
+    const button = document.getElementById("letterButton");
+
+    letter.classList.toggle("show");
+
+    if (letter.classList.contains("show")) {
+        button.textContent = "Close My Heart ♥";
+        celebrate();
+    } else {
+        button.textContent = "Open My Heart ♥";
+    }
+}
+
+/* CONFETTI CELEBRATION */
+
+function celebrate() {
+    const symbols = ["♥", "♡", "✦", "✨", "❤", "💕"];
+    const colors = [
+        "#e6c17a",
+        "#f3a6b8",
+        "#ffffff",
+        "#c56a89",
+        "#ffdfb0"
+    ];
+
+    for (let i = 0; i < 100; i++) {
+        setTimeout(() => {
+            const piece = document.createElement("div");
+
+            piece.className = "confetti";
+
+            if (Math.random() > 0.5) {
+                piece.textContent =
+                    symbols[Math.floor(Math.random() * symbols.length)];
+
+                piece.style.width = "auto";
+                piece.style.height = "auto";
+                piece.style.background = "transparent";
+                piece.style.fontSize = (10 + Math.random() * 15) + "px";
+            } else {
+                piece.style.background =
+                    colors[Math.floor(Math.random() * colors.length)];
+
+                piece.style.borderRadius =
+                    Math.random() > 0.5 ? "50%" : "0";
+            }
+
+            piece.style.left = Math.random() * 100 + "vw";
+            piece.style.animationDuration =
+                (2 + Math.random() * 3) + "s";
+
+            document.body.appendChild(piece);
+
+            setTimeout(() => piece.remove(), 5500);
+
+        }, i * 15);
+    }
+}
+
+/* WELCOME CELEBRATION */
+
+window.addEventListener("load", () => {
+    setTimeout(celebrate, 600);
+});
+
+</script>
+
+</body>
+</html>
